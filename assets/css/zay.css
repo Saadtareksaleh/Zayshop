@@ -1,0 +1,65 @@
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #ede861 !important;}
+.text-muted { color: #bcbcbc !important;}
+.text-success { color: #59ab6e !important;}
+.text-light { color: #cfd6e1 !important;}
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #1d242d !important;}
+.bg-success { background-color: #59ab6e !important;}
+.btn-success {
+  background-color: #59ab6e !important;
+  border-color: #56ae6c !important;
+}
+/*navbar*/
+.navbar .nav-item :hover{
+  color: #59ab6e;
+}
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { background: #efefef !important;}
+#template-mo-zay-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: #59ab6e;
+  }
+  #template-mo-zay-hero-carousel .carousel-control-next i,
+  #template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #59ab6e !important;
+    font-size: 2.8em !important;
+  }
+  /*services*/
+  .services-icon-wap {transition: .3s;}
+  .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+  .services-icon-wap:hover {background: #69bb7e;}
+  /*brands*/
+  .brand-img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: .5s;
+  }
+  .brand-img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+  /*footer*/
+#footer a{
+  color: #fff;
+}
+#footer a:hover{
+  color: #59ab6e;
+}
+#footer ul.footer-icons :hover{
+  background-color: #fff;
+  color: #212934;
+  transition: .5s;
+
+}
+#footer .border-light { border-color: #2d343f !important;
+}
+#footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;}
+#btn-size:active{
+  transition: .5s;
+  background-color: #5d5a5a;
+}
